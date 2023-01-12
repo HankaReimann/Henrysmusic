@@ -1,0 +1,435 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="/logo192.png">
+    <link rel="stylesheet" charset="UTF-8"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+    <link href="https://fonts.cdnfonts.com/css/manrope" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="manifest" href="/manifest.json">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap" rel="stylesheet">
+    <title>Henrys</title>
+    <script defer="defer" src="/static/js/main.93d09f39.js"></script>
+    <link href="/static/css/main.a9d61742.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="root">
+        <div class="chnge_home_nav">
+            <div class="nav_bar_wrtapper">
+                <div class="nav_bar_inner_box">
+                    <div class="nav_left_sec"><a href="/" style="text-decoration: none;">
+                            <div class="header_logo4"><img
+                                    src="data:image/png;base64,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">
+                            </div>
+                        </a>
+                        <div class="nav_left_items">
+                            <div class="nav_items">Produkty</div><a href="/article" style="text-decoration: none;">
+                                <div class="nav_items">Artists</div>
+                            </a><a href="/blog" style="text-decoration: none;">
+                                <div class="nav_items">Blog</div>
+                            </a><a href="/category" style="text-decoration: none;">
+                                <div class="nav_items">Pro členy</div>
+                            </a><a href="/product-detail" style="text-decoration: none;">
+                                <div class="nav_items">Kontakt</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nav_right_sec">
+                        <div class="nav_serach_wraper"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAcCAYAAACQ0cTtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFRSURBVHgBzZWBcYMwDEVFJvAGZYOyQdMNGIER2ABvQjbIdQJ3g9IJkg3oBq58la+Ki2vZprn+O50SkHiSDwmAO6qRBFlrW3QdmqJLV7SlaZoP2EMIUGgT2sXGZdAGqBE+oEdbgwevBN6Cn6n7bNAUADTaEX523VNnXpcsYAAykmR3jKxbGdAFMdAJMkS5HmgkCYZVpyBT7qhZsQMkKksHygs2vwVp3xVUKOjuIbx/IP9E/gUqhEP+is4P+nMMxjdDra7kW0jA9lg/0WccgoDst3BD0cI97J38I1SIRqajv0sM5m/0JTPG1LPfC8Qqst+LV0Oh2BaZU4F+1hy0g3zQxGasTQWr7IW6DdLSJL5QXYejIP5sbzWBVAHQdznbr+/Xkfxob79lTm81wJOVyZ3AQHm6CMigvos10q0KcsqBJQqAI/y1GHCGe4heqD327T/XJwuMkPLcXx+xAAAAAElFTkSuQmCC">Vyhledávaný
+                            výraz</div>
+                        <div class="nav_right_inner">
+                            <div class="nav_basket"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAYAAAAPtVbGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFjSURBVHgB7ZWxToNQFIb/gwQXh/oEsjmKT2AdHWwaX0A7mrr0CYxP0EWig4n1DYhNjFsZHevq4n0EHEXL8XIhBgIItzI1/RLg8HMv/z33DwFYFUid3eMzWd6nmkAYHmL0LNASRolmw9q8RItQ7u6mbyOK3mUVYPi4jZbId3LuCWUAdHB3soOWoIJy3ZtI9RTLQuzj82uQzbQkE57jPzB1YVmzrGQWBtHCT+W5zGUfOiSZxgY23L6DoacWXOwktERaORh3O9AhzpRIqDr6/p1bNBl5ARjJllkdG7pEnLzcMINqk4RXdeZFF7qQ3KqYMBA1Jmn4ZOxBh3E/7iI+Aoz8mk5U+MrMgQ5WaKeVyMrlJsuGHxnJWOKg3iQbvrnVvBvDOFBXpo+sbFbP4Ae5JEdOnMHtQQ/2sncbleOe3l5wtEuyVxtJmE0QYL7CxfQWKwn9+TT/x5TwAMPppPHzlKovfk0pP6OOa9EoC02XAAAAAElFTkSuQmCC">
+                                1283 Kč</div>
+                            <div class="nav_lang_btn">CZ<img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAChSURBVHgBjVG7DcMgEM1RuPYIbt3ZIzBCJklWySbZICOkQQLR4BFooAAJwouCFDmI+AoE76d3gpRSVyK6pJT4PM/b6cBIKSfG2CPnfGPluAMEAOKoGXd4aQ/2mrR01CP/md/NqwAAiLqOEGKpnNZ6KdizFU6dmmOMkQ/DgF3xtq1mPwEYY8wYQoBp+kCb956v62r32mbAd0j5YuucO7fMmBfFu3VhfxOSLwAAAABJRU5ErkJggg==">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_bar_MBLwrtapper">
+                <div class="mobile_nav_inner">
+                    <div><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAAwCAYAAACooNxlAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUVSURBVHgB5VqNdRoxDBZ9GYBOEG8AmSDXCUonKJmgyQSlE5ROEDpBkwlymaBkgjoTlE7gSj2ZE+J+rOOAkH7v+dno/CPJsiVsD+A/RgjBYTbGdMn50xn8J0Dhh1AIHRWQYRqqav7VKgQVQIJnmEacu5R2A3gFYNPPoBA+WsHQ0IXHlGO6PzmFsOlnUApPZYvwKyiEf8K0pPJgMFjFjy9aIWrdm0yfQYKS0FJ439TgRSlEmT7lY7DBQzn7JPwSjDiaQipcnnXdR9N/hGL2l9L0W8amcT6JMb9j2wV9O4hCKlwe5c7QhTT9HArhPXQA8vIRszlsK5/6vNiLQrq6PAESPs58bhUex8+g3HcA218J+kND06ud45AeXV7c+JJNX4+P7W6Y/JlpwH1H3Ioy0e8xfRW0S5NChMtzUB/tNUGbfm4U/t9YsQ3+nmD2Q/R909B2AsJSsY93TKcltN68z1oY2MX0iUEPHU2fhXfkKbB8K8YnoedcTXqhZcX4RLuvqKvrrXEmGHCUE9Nc/gndTZ9y39X0mclrTN+gEGoieBmJZrL8JMofLGMzqP7zGTLyA0rTp81nwRWGLY1zMLo8seQoX1tMwma3hHJPkDPtRNnHglEZpHSyun8TSBYySWiUgyHak4imD8VsSndHlnjRwLyHUkgaO+OyE3WalkwKX+tx1nyETUyZ5hQ9AyNoE8P0k9v/DtW45rqZos9UX1P1/Zz2N01r4Wem6mueyDNBZ7cbijVP0R7lG9EeI7pggPrlN6qh5+q3nv0L9XuFYz9DM3QfmidS2GMnhbA2Z4pMsyxjAQ2iLzD9Esw4SINXvx1sCtS6XJCvO+SP6o0bqmVvwIgaZURc1y0vZGjO69S01rltdOERI9i0rj+QBoo9vkPhFKp4OTcphJfJTJAWUOzSEmPYDyTzGWxaV5KSSbGYppjecqKl52Udq4VMRZm8zRWma1XHErtYIPcIBx0UQmCHMRUkL79bFTKC46FpU/TQAvZUv6HYw27r6lkVsq/ZT0GtFSQeBDlI4N+8qR4LDUKbN2kFJ8pb9zLv0aziv9g2DDmwOuQy8rDtqtvij0pw8Heu+rvTCplAOmTgdSjQfyenaKkWkkNxThLxWX3/Qn9JTmbJMJaJtC2gsDkUMUgVbvD7jAraQmKwQmb4EdohD3w6HfcZ4aGahyRQDIJLJYdCNmpHfC8kz1ohpKkFB2BtCsnjqRMh8GES5hT83MF+0NlCIvj/1qLuey93u+zfo0v7gmkvCuHDq5UYy3T+WoVQntGQM3nu67L7kPGJh3IzNykjtF+HLE7x9l8q4ampYtg8E07yii9RIbQnNM18ZcjOs09hwy7XIY993MvoQXNIRxSclEAbdOOeIEweRLuIKWzesbSNG71jDuI6xKoQGRWOOVK9FDTP/r4JFAt8k0xwXttOmP6l+iQV4mqax7OUpOsQq0Kow+iOabb0jHwQZQ/lNUIeieqYcQth+wWAg2rTXylrOhfj5tDxOsR0yEwmi+lX2AYd2E7ACO6PDqO/YnoI9YfRVXhQfbmK5WuGyUJI0zgonTJNMb2HMtqbt81C6P/xy53izUMPaFNIZGIlBqbyHMrrxEqE3R+/LEFsfIMOj1+6oOq/TMwvUpkIuz9+8bDDC4A+MWBPkcxE6P/xS34s4avQ+mAmHPnxy6GxoZBw5McvLwEDEVxl0ON7z1MFKSQk1Dv0QdDRUOd2Pez43vNUQQqJpm9+7/ka8Rfu6VdVSik8KwAAAABJRU5ErkJggg==">
+                    </div>
+                    <div class="mbl_nav_right">
+                        <div><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHRSURBVHgB7ZeLbYMwEIaPTsAG9QZlBDZoR2CEbhB3goyQbtARSCdIMgFsQDa4noWRLleDsbHbVOonnbCQffp958cZ4M4oIBBEVPSpyMy3tL97Y0VRHOEnIBEl2Y6sQz8fZC+QAyZkwHA6G80gigUxij4tjKnhXMnOZBfbNjzZfpXDlaZUvsEWSEzliEpLVpuoLYxTZO+OaO0hFuu0Y86MsNcIH20SUUKMaVcQCY3VQlTQxIyDnYiMgo2IFA5LKZcD1abZzPstRdT12oE8vB0kBMfNEBYlMYsGEiMWeePrzNM1QAZEBg5z/R7sl++kM+ThyNqzO3cSpNi/C+SBT1TNdZoE8UV2hQzQ9cH9lj5Bd8MkqGf/HiED4sTvwSOI57eGPCjW7uc68QhNOTZHQI4oPbP2p7e3OLg0JMRxLfkvbMfxriAR5iBkvk8hA1s2sIUEiImGXUuOwfGVHjiLvUOME1lU7XFtDXPrp8bbMjh+GeD3urhbG2oc6589ugmPEHOsHQ6NsFcUxb5NTYPj4pWPgyGlqAbXPQ7naK1YnVLU9LQJeSy2ZDUsRzxelHVo1kZjxZ2EwA7HJ7SWQjyiNu3iJDhE7eC3kaLgHmCiNPzzl/kC01oN0egQY7UAAAAASUVORK5CYII=">
+                        </div>
+                        <div class="mbv_nav_icon"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAYCAYAAAB9ejRwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABVSURBVHgB7dYxDQAhEETRv6fgJJykk4ITJIIEHCw09HRMMa+iJJnkZyMzX6CgY8T61LceDR39QVAozoeZXbKTUNHhoh/b8/3ocNHNrpE88lz0U5LzTRO+KTHQyjREAAAAAElFTkSuQmCC">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile_home_banner">
+            <div class="img88"><img src="/static/media/Group8888.3c383f16498a114685f5.png" class="img-fluid imh999">
+            </div>
+            <div class="on_nav"></div>
+            <div class="hbwritten"><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABfCAYAAABoZdCxAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOxSURBVHgB7ZvhVdswEMcvfXxvNsBMUDbATFCYgDBBYYKmE5BOEHcCygS4E5AN4k5AOoGrezk9zorsREpiufT/e0/P8lk+SSfpfHJiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgH+fUV3XU3rnjEajKSWGDV3TO8cYekSJ+UCgF2DonoChe+LEpG8EAABBJA97hoiJeMfmcG7PTXRY0iEwip/rN6bOtaW6NhFZVm9nKWVzR/4qHfHpPxXZtEXnq7R1ou4v3Do72n/V1V9ul0kPnnqX9t5YUkQdjdkScW9u0tx0/E5khbqe2cFiTJ7ryeR0ZWbmT+rmwaQ7jzwz6ZEnDUWSKrzLaX++ynFh0krJr1vq6TSyDMpEiVhn2VJnMIcydDba5Kyj/AXtTmUVUjMU5WV+bsRskCcl/9yS12V4MBaSL+SoXUNl0pnRfWmOl0qeUySpZvS59tMBzJxzq6NwdYv+XGSu27DuqzDySmSZul7JAG48CLVrCuGE0mA7WobcxJ2v/e/ArPsYK916IF23YWevXiErp32aivak7xmtO7zXU1zjcR+su81tMDwQMzWbGZ3nVZEp/Wcq/aYI+jY0G8T6xk8UiMfd6FlYqPwNtbsNNtzEpHtHV+GcP0a6Ny8+13FRN2PpXSq7N/foTi86QqlftJ5ReUhHpKx+6rMfXeg6qek+xqq+rYhb+m6yX0TEbeQw8tb6671xAvguJlJ+24ZlrnTrDcvcOc/rsA2LhTcuV55+FG1t3tEOY6c9zEut3EgsKaIOPQtj/TSvltIjL1rK7oTMXA7nKiXmmf1c7+lGfK6jpOZy46W0rRJecg3X0VZQlmhJax8aEk9rJrQOxy4duXYfzFPosucHpGkf632mt5CPj4+e+sKo93/Xcdqhu+E6RDZ13EBDj3PdvjPhZT1z6h2H9CXQJmNxG7Xb/xhSbVhKld9pScrMnDriczoSUh/vIPWKuKFIUhnaLvEgPG4gowMhMziTNJb6KmpuaoIiJU0SQ4vBFjQsZiYtJd0pufsw/UgRpPxx9on+I1IaemgzWrslHQ3lTrk/FMGhDF3Vmyy7bpC3YofZcR0G7SLsRurF5OdKXsbuElP/ryNmVh9lcGTgSyXKaDOqif5rRmpDx/hpPTiHDu9uTfrhkVcmXY/2+JEWv4J7qNfvNjI5XTkvrwAAAAAABsygPhYawkc9x2JQHwsN4aOeY4FPK3oChu4JGLon8LFQT/wF1ShRMesX7VYAAAAASUVORK5CYII="
+                    class="img-fluid"></div>
+            <div class="hmbt">Od kytaristů pro 0</div>
+        </div>
+        <div class="HomeDeskTop">
+            <div class="home_banner_wrapper">
+                <div class="h_banner_boy"><img src="/static/media/Group3.5f070da74b94fbae9c49.png" class="h_banner_boy">
+                </div>
+                <div class="h_banner_text_box">
+                    <div class="h_text_top_bar"></div>
+                    <div class="h_banner_text2">Henry’s</div>
+                    <div class="h_sep_text_box">
+                        <div class="h_sep_2"></div>From guitarists for guitarists
+                    </div>
+                </div>
+            </div>
+            <div class="main_bg">
+                <div class="Home_page_contaner">
+                    <div class="Home_card1_box">
+                        <div class="h_card1_items">
+                            <div class="h_card1_img"><img src="/static/media/Electric.bdcecf9fc1f944c0ed5d.png"
+                                    class="img-fluid"></div>
+                            <div class="h_card1_text">Produkty</div>
+                        </div>
+                        <div class="h_card1_items">
+                            <div class="h_card1_img"><img src="/static/media/Frame2.8c1fc44c5117f6057c38.png"
+                                    class="img-fluid"></div>
+                            <div class="h_card1_text">Poradna</div>
+                        </div>
+                        <div class="h_card1_items">
+                            <div class="h_card1_img"><img src="/static/media/Tereza.8e864de47566d9e2d338.png"
+                                    class="img-fluid"></div>
+                            <div class="h_card1_text">Artists</div>
+                        </div>
+                    </div>
+                    <div class="home_card2_box">
+                        <div class="home_Card2_items">
+                            <div><img src="/static/media/akusti.ea5dd4ea695701352075.png"></div>
+                            <div class="home_card2_text">ACOUSTIC 12ST Bronze</div>
+                            <div class="home_card2_text2">LIGHT 10-47</div>
+                        </div>
+                        <div class="home_Card2_items">
+                            <div><img src="/static/media/akusti.ea5dd4ea695701352075.png"></div>
+                            <div class="home_card2_text">ACOUSTIC 12ST Bronze LIGHT </div>
+                            <div class="home_card2_text2">10-47</div>
+                        </div>
+                        <div class="home_Card2_items">
+                            <div><img src="/static/media/akusti.ea5dd4ea695701352075.png"></div>
+                            <div class="home_card2_text">ACOUSTIC 12ST Bronze</div>
+                            <div class="home_card2_text2">LIGHT 10-47</div>
+                        </div>
+                    </div>
+                    <div class="coted_struny_wrapper">
+                        <div>
+                            <div class="coted_headind">Coated struny</div>
+                            <div class="coted_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum,
+                                aliquam tortor tincidunt aliquet risus eu faucibus quam nullam. Enim pulvinar elementum
+                                ultrices amet</div>
+                        </div>
+                        <div class="coted_img"><img src="/static/media/Frame 266.63fbe1ce605a60107e96.png"></div>
+                    </div>
+                    <div class="coted_struny_wrapper2">
+                        <div class="coted_img"><img src="/static/media/Frame 266.63fbe1ce605a60107e96.png"></div>
+                        <div>
+                            <div class="coted_headind2">Normální struny</div>
+                            <div class="coted_text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum, aliquam tortor tincidunt aliquet risus eu faucibus quam nullam. Enim
+                                pulvinar elementum ultrices amet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_wrapper">
+                    <div
+                        class="swiper swiper-coverflow swiper-3d swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress mySwiper">
+                        <div class="swiper-wrapper"
+                            style="transition-duration: 0ms; transform: translate3d(-882px, 0px, 0px);">
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="12"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -500px) rotateX(0deg) rotateY(250deg) scale(1); z-index: -4;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="13"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(200deg) scale(1); z-index: -3;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="14"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -300px) rotateX(0deg) rotateY(150deg) scale(1); z-index: -2;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-visible"
+                                data-swiper-slide-index="15"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -200px) rotateX(0deg) rotateY(100deg) scale(1); z-index: -1;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-prev"
+                                data-swiper-slide-index="16"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(50deg) scale(1); z-index: 0;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-visible swiper-slide-active"
+                                data-swiper-slide-index="0"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1); z-index: 1;">
+                                <img src="/static/media/s1.b9a4ba8498526eeb7e45.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-visible swiper-slide-next" data-swiper-slide-index="1"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(-50deg) scale(1); z-index: 0;">
+                                <img src="/static/media/s3.9588537f4546b1df7a3d.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-visible" data-swiper-slide-index="2"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -200px) rotateX(0deg) rotateY(-100deg) scale(1); z-index: -1;">
+                                <img src="/static/media/s1.b9a4ba8498526eeb7e45.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="3"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -300px) rotateX(0deg) rotateY(-150deg) scale(1); z-index: -2;">
+                                <img src="/static/media/s2.d54728d00fc8b96e63d1.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="4"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(-200deg) scale(1); z-index: -3;">
+                                <img src="/static/media/s3.9588537f4546b1df7a3d.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="5"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -500px) rotateX(0deg) rotateY(-250deg) scale(1); z-index: -4;">
+                                <img src="/static/media/s4.42e3cb1ad5f4901e5607.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="6"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -600px) rotateX(0deg) rotateY(-300deg) scale(1); z-index: -5;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="7"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -700px) rotateX(0deg) rotateY(-350deg) scale(1); z-index: -6;">
+                                <img src="/static/media/s1.b9a4ba8498526eeb7e45.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="8"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -800px) rotateX(0deg) rotateY(-400deg) scale(1); z-index: -7;">
+                                <img src="/static/media/s2.d54728d00fc8b96e63d1.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="9"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -900px) rotateX(0deg) rotateY(-450deg) scale(1); z-index: -8;">
+                                <img src="/static/media/s3.9588537f4546b1df7a3d.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="10"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -1000px) rotateX(0deg) rotateY(-500deg) scale(1); z-index: -9;">
+                                <img src="/static/media/s4.42e3cb1ad5f4901e5607.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="11"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -1100px) rotateX(0deg) rotateY(-550deg) scale(1); z-index: -10;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="12"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -1200px) rotateX(0deg) rotateY(-600deg) scale(1); z-index: -11;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="13"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -1300px) rotateX(0deg) rotateY(-650deg) scale(1); z-index: -12;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="14"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -1400px) rotateX(0deg) rotateY(-700deg) scale(1); z-index: -13;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="15"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -1500px) rotateX(0deg) rotateY(-750deg) scale(1); z-index: -14;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="16"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -1600px) rotateX(0deg) rotateY(-800deg) scale(1); z-index: -15;">
+                                <img src="/static/media/s5.8db3c2641b3fffba371e.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                data-swiper-slide-index="0"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -1700px) rotateX(0deg) rotateY(-850deg) scale(1); z-index: -16;">
+                                <img src="/static/media/s1.b9a4ba8498526eeb7e45.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next"
+                                data-swiper-slide-index="1"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -1800px) rotateX(0deg) rotateY(-900deg) scale(1); z-index: -17;">
+                                <img src="/static/media/s3.9588537f4546b1df7a3d.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -1900px) rotateX(0deg) rotateY(-950deg) scale(1); z-index: -18;">
+                                <img src="/static/media/s1.b9a4ba8498526eeb7e45.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -2000px) rotateX(0deg) rotateY(-1000deg) scale(1); z-index: -19;">
+                                <img src="/static/media/s2.d54728d00fc8b96e63d1.png" class="slider_imgp"></div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4"
+                                style="width: 294px; transition-duration: 0ms; transform: translate3d(0px, 0px, -2100px) rotateX(0deg) rotateY(-1050deg) scale(1); z-index: -20;">
+                                <img src="/static/media/s3.9588537f4546b1df7a3d.png" class="slider_imgp"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home_card3_container">
+                <div class="home_card3_items">
+                    <div><img src="/static/media/Karol.b56b4b993dc25c428ce6.png"></div>
+                    <div class="h_card3_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor
+                        placerat velit, fames sed tortor purus.</div>
+                    <div class="h_card3_btn">Placeholder</div>
+                </div>
+                <div class="home_card3_items">
+                    <div><img src="/static/media/Tereza2.ace7d09626409c9ceda4.png"></div>
+                    <div class="h_card3_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor
+                        placerat velit, fames sed tortor purus.</div>
+                    <div class="h_card3_btn">Placeholder</div>
+                </div>
+                <div class="home_card3_items">
+                    <div><img src="/static/media/Pavel.f0b539550d46b07bb1e8.png"></div>
+                    <div class="h_card3_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor
+                        placerat velit, fames sed tortor purus.</div>
+                    <div class="h_card3_btn">Placeholder</div>
+                </div>
+            </div>
+        </div>
+        <div class="homeMobileView">
+            <div class="h_home_main_container">
+                <div class="hm_card1_sec">
+                    <div>
+                        <div class="m_car1_img"><img src="/static/media/card1M.a3f38cecf3e6c31aca81.png"></div>
+                        <div class="mcard1_heading">Artists</div>
+                    </div>
+                    <div>
+                        <div class="m_car1_img"><img src="/static/media/card2m.7a1a69bc00f6b2c76d09.png"></div>
+                        <div class="mcard1_heading">Poradna</div>
+                    </div>
+                </div>
+                <div class="h_card_sec2">
+                    <div>
+                        <div class="m_car1_img"><img
+                                src="data:image/png;base64,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">
+                        </div>
+                        <div class="mcard1_heading">Produkty</div>
+                    </div>
+                </div>
+                <div class="m_text_content">
+                    <div class="m_text_heading">Coated struny</div>
+                    <div class="m_text_sec">Henry´s Strings jsou kvalitní struny, které výborně drží ladění, mají
+                        skvělou intonaci s&nbsp;jasným čistým tónem a dlouhou životnost. Dostupné pro elektrické,
+                        akustické i klasické kytary.</div>
+                </div>
+                <div class="m_card_4sec">
+                    <div>
+                        <div><img src="/static/media/mc4.115ea77974706d94329e.png"></div>
+                        <div class="mcard4_btn">Artists</div>
+                    </div>
+                    <div>
+                        <div><img src="/static/media/mc4.115ea77974706d94329e.png"></div>
+                        <div class="mcard4_btn">Artists</div>
+                    </div>
+                </div>
+                <div class="m_text_content">
+                    <div class="m_text_heading">Normální struny</div>
+                    <div class="m_text_sec">Henry´s Strings představuje novou řadu Coated strun, které jsou potažené
+                        tenkou ochranou vrstvou polymeru, která až 3x prodlužuje jejich životnost. Struny mají jasný
+                        čistý tón, skvělou intonaci a perfektně drží ladění.</div>
+                </div>
+                <div class="m_card_4sec">
+                    <div>
+                        <div><img src="/static/media/mc4.115ea77974706d94329e.png"></div>
+                        <div class="mcard4_btn">Artists</div>
+                    </div>
+                    <div>
+                        <div><img src="/static/media/mc4.115ea77974706d94329e.png"></div>
+                        <div class="mcard4_btn">Artists</div>
+                    </div>
+                </div>
+                <div class="m_card_last_sec">
+                    <div>
+                        <div><img src="/static/media/mlc.83ff8ac5d1c17cc58d15.png"></div>
+                        <div class="last_cardsec_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Porttitor placerat velit, fames sed tortor purus.</div>
+                        <div class="mLast_btn">Placeholder</div>
+                    </div>
+                    <div>
+                        <div><img src="/static/media/mlc2.61f211fefa1013d978ae.png"></div>
+                        <div class="last_cardsec_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Porttitor placerat velit, fames sed tortor purus.</div>
+                        <div class="mLast_btn">Placeholder</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_container">
+            <div class="footer_inner_box">
+                <div class="footer_content_wraper">
+                    <div><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAACdCAYAAAD7a1vNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKeSURBVHgB7Z2BbdtADEWpIgN0g6gTxCO4I3SCohO0I3STruJu4EyQywbZwDlGUmILlhzZlO/J+A8gZBgGwicxdHSgcpUtlN1uV+fDOsdDDn+9yvHrzuC0iXuyfnzYe/312OcxQjlxT3DVxr01Z7+2gcSHKC6URf7kw29rkr+YL1aeroRCCBHycsmxMgCTSq6t89qas9r9gnr4+ynHNyvMoNBAW6wNzt1AW0SUzzn4FXqyG4LQ5UKREB0J0ZEQHQnRkRAdCdGREB0J0ZEQHQnRkRAdCdGREB0J0ZEQHQnRkRAdCdGREB0J0ZEQHQnRkRCdYlPBe4OH9xbI7EJ7c6pra5Lfn1MNJ1SonQzuBmxrKzCnWuUkdnY7fFeXoyMhOhKiIyE6EqIjITrXvh9KObY5HtvXmxx/c/y0IOYSStYk/twePVJVVS/9D0b/sR8p5Mn+yLE9lvi1CBXKIhsrjLocHQnRkRAdCdGREB0J0ZEQHQnRkRAdCdGREB0J0ZEQHQnRkRAdCdGREB0J0ZEQHQnRkRAdCdGREB2NaELwAcNkvXFPHzxcglCyZjb1fdwzJ56GPkwSSvbJOdUxIh9Z8x8+eSOL9mnJl6g51eJXaKx8ziGqyyVr6rw4U6+Ql8XGLqzzORkS6rfFrrtgEh/Chboz3fXzbXRdz03bWGqfG69sQZzYz+utyyK/WE/sczQKYQ+v0OfHryZ0pFzWNsOD7+FCve3fTu5bF83ZQpfU+Zx8SmhJ+3kdCN3Cfl6+Kdk/u3Kdz8kt/ceLty9WLZLQkRAdrcuBSHa4SrTxN5cg5HfJB3fONnLbTxI6tho6+e65lFCyCauhU5hbKFnAaugUooS6cvlvHxJFVonOWZdLBl4lGhNK1muLS1jecqFJbZHOKxBb1ybnwwo+AAAAAElFTkSuQmCC">
+                    </div>
+                    <div class="footer_items_box">
+                        <div class="footer_main_text">Rychlé odkazy</div>
+                        <div class="footer_sub_items">Poradna</div>
+                        <div class="footer_sub_items">Pro začátečníky</div>
+                        <div class="footer_sub_items">Pro profesionály</div>
+                        <div class="footer_sub_items">Od vás</div>
+                    </div>
+                    <div class="footer_items_box">
+                        <div class="footer_main_text">Rychlé odkazy</div>
+                        <div class="footer_sub_items">Poradna</div>
+                        <div class="footer_sub_items">Pro začátečníky</div>
+                        <div class="footer_sub_items">Pro profesionály</div>
+                        <div class="footer_sub_items">Od vás</div>
+                    </div>
+                    <div>
+                        <div class="footer_social_icon">
+                            <div><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKzSURBVHgBxZdLb9NAFIXPmPCQoCVCPCKBVCNYt05oKrGBZo9EgTWiLFmVBaw7kViygF9AEGx59BcQVghKG7d7kBdFKgKJhodok9TTexvbtV23tiM3/STLk8nY5/rM3OuxQEJmpTGuQbuuoAz6qQNC3/pXmfTbsoGZddj1y9K0ktxTxA2Yk6VJBUx3BZNBN621YFfjgthRnJ9UQHuWRjRtEJHin6uXpqDUE2SD1YZdiQpAC3fMVUvTGQoz+kFo7z5Jwwj/IcLCSkFib9jmQM5tfJCGnlZ4YWkVLz6u4MvPFv6t2Zt9Rw9rKAzkIK+dxpnBnH84OSDe0Lnodni2szVIAYs+fL2MxW+rnjDDbQ4mGmHMypIMiHM6IcWqdp+4F2iepxrSyHviTh4n5mWPwg75DrT73MhxPiNlLi+Q1WFuGIO4SUdoniMRUFc3xamQTCAFf33z68KC966cQHLE+Pyj4hDZrkZSXBVYXJ74QPzThul0REULviD6By08nRecjn2AhIcS+fXg1bLXjrL9K+W1f8wxKjRcZOJgcc6b/G6DFiNWtx9ehP4xw2ePIA5K76bmiGfKhVOHYsdQKbd4tb9HxhQS5DqEbeaUEqYQuLPbuJGQjeEiwy+Tiye3nnb4XLztFJ4puM6uQ/uFhHz/3cHt2lKgj+f48a1C0lvQfKuZsmxMaEVp0pyrOvoIldcan50Xi6qibyhrVJpvPfGyNOt0eoo+0IaquG1vM3EAtuSosIdQbgd2sp44z70TVeZ5z9hQz8tyXvr7ArtXjsqmTV7WDrDwmGxMhvu3bZ3HpGl2HcgmALY6SjhSnGEHRmXjPF/YexCqrsjFsNWx4i58IbsgYN/tfgzGCq64ohR8xcmiHYktws7qrPHBe/vm/zZ/efDBb8LjdDR//GlZJGhyyewWrWRsAE/KHlbrSFTNAAAAAElFTkSuQmCC">
+                            </div>
+                            <div><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOVSURBVHgBtVfbUdtAFL27Npn84RLkChDmMZOviAogFcQdGCpgXQFQQUwFQAWIr8wEY6sE0YG/A+jmXGnXlhW94nHODOzDqz13797XKirBs/EDTfqUiX0MvWxWedQaHOPfQv6Y1NM7JZMvJoqLq1R+8Mv4viZ1hemAtgwQTX5TMs4LsSSfmoMzSPwD3d76Z+wWx9QeXraPKuxF8RslJ06AlPyn8b0d0nNaEnMIlY+7RNG+iRa0IWTfT0QBVH+Zu7a4Q8m+7NuV0Q6p5YkT4ttjMx/SFmBPOIEQ4Q7RHQRIbeid9Dlao7J7Tk9NouJDM+/TFvBiBkMmOk2IHo7NbFLQ7gKn72vFOnAf4NRj2gKECMSizTONVrzHauHWLum9E/ldpehr7ruoaeO58Xsf6T1qfzWbhEcmCt2oUzBaZcdoI3aTrH01NfuPzrUOzUzVkSZKj5hJ7qtXsiSGiseiYhlMzeAazUiMF1d5InPrV0w33ZwVVlq1qPGDOnfE7FM1PFEx7nrvwMwucBAR8jy/ABpbaNvHKXddXwaV5DAUaMcRs6y7gaq/MXxWWvEQtxZqPYcAV9QC3aYFL+PBJVTt2a0RJBhBYh4Xlt3DqCaKNNyJeiIAxg95OyiDpgaAeOj6GfHfMVogRAklF26s0sBSj1pycRGyiUVicxWxw7GJJlhpPUYFYqS0Kbm4g+vCWJ6oFXi57m2ZETchVyuX0pS0ivGcM1xV7pLtyHUukzFrj1oAhHtlglTsXw3k33C5qeJTaoDEAzSBpY5hA9HG5JmBcWjpA3G7uvWIB/K7DaUqpAY0u1ou2cDtTJkAYtUIp5JIhnZlLFULNaAxyIj/PpvBGHd56QQAkYTNUKU1GiP0pnk6Z1x80eSWguXJucYtjszM4Pf8SYTojNOTpknJVUALCbmHJrov26eY7XSuRqO6oCACoP7qZ3F89Y0ljUW4DnG/LqTmXQ8Z8FXU/uomJMGjqfzYqnIofWvZ9Bmqb13nSdCySRsairtilZD6ezalgzryEkH+CZm7ZuyImKFG5JL7SSXH9MidaNuYjg9Gq/cARyK8FpVxmp9T9CR324SyXWLmazeG3aR8qQ6yukw92tLWArU7qwelkjgfJqX/URI2xZLzBqVT79F72ZNr7QV0Y6uc1YvFCnD3P55KZcRr5A4vxh8WXhhbQPYCKrphZbWaVZrkuRJZZWrdpQYkznU5WaAsx9OIwipX/ANMcpQMHeSKSgAAAABJRU5ErkJggg==">
+                            </div>
+                            <div><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHASURBVHgB7ZbPLwNBFMe/MxoEYUmExEFx4sASP8JBuLhzFxx79BeYnvXAf9DEwf/AwVEk2q6T60pEInFYUgnRzngz0qqmle5Wtwf9JLP7Mrs73/dm5u0boMV/g1XqvBR2tA2w6KHFgWjpMwkerTYYh3QLtgI83bSdA9xl4bhVxVNibldB7VDXGhqGciTY8aJIJ4viqfjcgVIQCAnS2l+Ip49YRthWHjyDsultMF4b5Bin9bBDFtZQwFjjUNxGE1DgNmcs9KgNlEWjEfLBqpJxFUmcP5n79pKFod4IgiKh+skBjMInZ7dZxE4fcHLlISgUbh9HQLLv0ohvJ++NM0EILF7g8SVnlkI7oe1QxUudOCQnXmlGaiX4jimhu4MjtjqAjckeX9/VJa5Ft+xe07TtFy1+hwCsjHeZaOtJN99fTgy2IzE1jOmRTtQDA3Mjii61/2KATZriv4Bq/TOnlXLRBKisujwP6aAZMOmYGb8WsxeNPcGUo9x5kRkz+fEBtac7EArKJb11bRX3mj40tlOB13WWXpihLuu7MQu+KQZD1cdsak8qeRNhSM4Kx/sh7gd99Hr7csxASecVBmzR4jc+AXqTi4/tcJliAAAAAElFTkSuQmCC">
+                            </div>
+                        </div>
+                        <div class="footer_addres">Startcorp s.r.o.Ocelářská 937/39190 00 Praha 9 - VysočanyCzech
+                            Republic</div>
+                    </div>
+                </div>
+                <div class="footer_sep"></div>
+                <div class="footer_bootom_box">
+                    <div class="f_left_text">Henry’s Strings 2022 ©</div>
+                    <div class="footer_b_right">
+                        <div class="footer_b_items">Smluvní podmínky</div>
+                        <div class="footer_b_items">Zpracování osobních údajů</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile_footer_coontainer">
+            <div class="mbl_footer_inner">
+                <div class="mbl_foter_content">
+                    <div>
+                        <div class="mbl_items_heading">Rychlé odkazy</div>
+                        <div class="mbl_foter_items">Poradna</div>
+                        <div class="mbl_foter_items">Pro začátečníky</div>
+                        <div class="mbl_foter_items">Pro profesionály</div>
+                        <div class="mbl_foter_items">Od vás</div>
+                    </div>
+                    <div>
+                        <div class="mbl_items_heading">Naše produkty</div>
+                        <div class="mbl_foter_items">Struny</div>
+                        <div class="mbl_foter_items">Lifestyle</div>
+                        <div class="mbl_foter_items">Gear</div>
+                        <div class="mbl_foter_items">Naše produkty</div>
+                    </div>
+                </div>
+                <div class="mbl_footer_social">
+                    <div class="mnl_f_social"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKzSURBVHgBxZdLb9NAFIXPmPCQoCVCPCKBVCNYt05oKrGBZo9EgTWiLFmVBaw7kViygF9AEGx59BcQVghKG7d7kBdFKgKJhodok9TTexvbtV23tiM3/STLk8nY5/rM3OuxQEJmpTGuQbuuoAz6qQNC3/pXmfTbsoGZddj1y9K0ktxTxA2Yk6VJBUx3BZNBN621YFfjgthRnJ9UQHuWRjRtEJHin6uXpqDUE2SD1YZdiQpAC3fMVUvTGQoz+kFo7z5Jwwj/IcLCSkFib9jmQM5tfJCGnlZ4YWkVLz6u4MvPFv6t2Zt9Rw9rKAzkIK+dxpnBnH84OSDe0Lnodni2szVIAYs+fL2MxW+rnjDDbQ4mGmHMypIMiHM6IcWqdp+4F2iepxrSyHviTh4n5mWPwg75DrT73MhxPiNlLi+Q1WFuGIO4SUdoniMRUFc3xamQTCAFf33z68KC966cQHLE+Pyj4hDZrkZSXBVYXJ74QPzThul0REULviD6By08nRecjn2AhIcS+fXg1bLXjrL9K+W1f8wxKjRcZOJgcc6b/G6DFiNWtx9ehP4xw2ePIA5K76bmiGfKhVOHYsdQKbd4tb9HxhQS5DqEbeaUEqYQuLPbuJGQjeEiwy+Tiye3nnb4XLztFJ4puM6uQ/uFhHz/3cHt2lKgj+f48a1C0lvQfKuZsmxMaEVp0pyrOvoIldcan50Xi6qibyhrVJpvPfGyNOt0eoo+0IaquG1vM3EAtuSosIdQbgd2sp44z70TVeZ5z9hQz8tyXvr7ArtXjsqmTV7WDrDwmGxMhvu3bZ3HpGl2HcgmALY6SjhSnGEHRmXjPF/YexCqrsjFsNWx4i58IbsgYN/tfgzGCq64ohR8xcmiHYktws7qrPHBe/vm/zZ/efDBb8LjdDR//GlZJGhyyewWrWRsAE/KHlbrSFTNAAAAAElFTkSuQmCC">
+                    </div>
+                    <div class="mnl_f_social"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOVSURBVHgBtVfbUdtAFL27Npn84RLkChDmMZOviAogFcQdGCpgXQFQQUwFQAWIr8wEY6sE0YG/A+jmXGnXlhW94nHODOzDqz13797XKirBs/EDTfqUiX0MvWxWedQaHOPfQv6Y1NM7JZMvJoqLq1R+8Mv4viZ1hemAtgwQTX5TMs4LsSSfmoMzSPwD3d76Z+wWx9QeXraPKuxF8RslJ06AlPyn8b0d0nNaEnMIlY+7RNG+iRa0IWTfT0QBVH+Zu7a4Q8m+7NuV0Q6p5YkT4ttjMx/SFmBPOIEQ4Q7RHQRIbeid9Dlao7J7Tk9NouJDM+/TFvBiBkMmOk2IHo7NbFLQ7gKn72vFOnAf4NRj2gKECMSizTONVrzHauHWLum9E/ldpehr7ruoaeO58Xsf6T1qfzWbhEcmCt2oUzBaZcdoI3aTrH01NfuPzrUOzUzVkSZKj5hJ7qtXsiSGiseiYhlMzeAazUiMF1d5InPrV0w33ZwVVlq1qPGDOnfE7FM1PFEx7nrvwMwucBAR8jy/ABpbaNvHKXddXwaV5DAUaMcRs6y7gaq/MXxWWvEQtxZqPYcAV9QC3aYFL+PBJVTt2a0RJBhBYh4Xlt3DqCaKNNyJeiIAxg95OyiDpgaAeOj6GfHfMVogRAklF26s0sBSj1pycRGyiUVicxWxw7GJJlhpPUYFYqS0Kbm4g+vCWJ6oFXi57m2ZETchVyuX0pS0ivGcM1xV7pLtyHUukzFrj1oAhHtlglTsXw3k33C5qeJTaoDEAzSBpY5hA9HG5JmBcWjpA3G7uvWIB/K7DaUqpAY0u1ou2cDtTJkAYtUIp5JIhnZlLFULNaAxyIj/PpvBGHd56QQAkYTNUKU1GiP0pnk6Z1x80eSWguXJucYtjszM4Pf8SYTojNOTpknJVUALCbmHJrov26eY7XSuRqO6oCACoP7qZ3F89Y0ljUW4DnG/LqTmXQ8Z8FXU/uomJMGjqfzYqnIofWvZ9Bmqb13nSdCySRsairtilZD6ezalgzryEkH+CZm7ZuyImKFG5JL7SSXH9MidaNuYjg9Gq/cARyK8FpVxmp9T9CR324SyXWLmazeG3aR8qQ6yukw92tLWArU7qwelkjgfJqX/URI2xZLzBqVT79F72ZNr7QV0Y6uc1YvFCnD3P55KZcRr5A4vxh8WXhhbQPYCKrphZbWaVZrkuRJZZWrdpQYkznU5WaAsx9OIwipX/ANMcpQMHeSKSgAAAABJRU5ErkJggg==">
+                    </div>
+                    <div class="mnl_f_social"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHASURBVHgB7ZbPLwNBFMe/MxoEYUmExEFx4sASP8JBuLhzFxx79BeYnvXAf9DEwf/AwVEk2q6T60pEInFYUgnRzngz0qqmle5Wtwf9JLP7Mrs73/dm5u0boMV/g1XqvBR2tA2w6KHFgWjpMwkerTYYh3QLtgI83bSdA9xl4bhVxVNibldB7VDXGhqGciTY8aJIJ4viqfjcgVIQCAnS2l+Ip49YRthWHjyDsultMF4b5Bin9bBDFtZQwFjjUNxGE1DgNmcs9KgNlEWjEfLBqpJxFUmcP5n79pKFod4IgiKh+skBjMInZ7dZxE4fcHLlISgUbh9HQLLv0ohvJ++NM0EILF7g8SVnlkI7oe1QxUudOCQnXmlGaiX4jimhu4MjtjqAjckeX9/VJa5Ft+xe07TtFy1+hwCsjHeZaOtJN99fTgy2IzE1jOmRTtQDA3Mjii61/2KATZriv4Bq/TOnlXLRBKisujwP6aAZMOmYGb8WsxeNPcGUo9x5kRkz+fEBtac7EArKJb11bRX3mj40tlOB13WWXpihLuu7MQu+KQZD1cdsak8qeRNhSM4Kx/sh7gd99Hr7csxASecVBmzR4jc+AXqTi4/tcJliAAAAAElFTkSuQmCC">
+                    </div>
+                </div>
+                <div class="mbl_footer_links">
+                    <div class="f_links">Smluvní podmínky</div>
+                    <div class="f_links">Zpracování osobních údajů</div>
+                </div>
+                <div class="mbl_footer_sep"></div>
+                <div class="mbl_f_last">
+                    <div class="mbl_f_addres">Startcorp s.r.o. Ocelářská, 937/39, 190 00 Praha 9 - Vysočany, Czech
+                        Republic</div>
+                    <div class="mbl_f_addres2">Henry’s Strings 2022 ©</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin=""></script>
+</body>
+
+</html>
