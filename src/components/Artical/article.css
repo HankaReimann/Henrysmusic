@@ -1,0 +1,271 @@
+.artilce_banner_wrapper{
+	background: url("../../asstes/images/article.png");
+height: 419px;
+background-size: cover;
+background-position: center;
+}
+.article_body_wrapper{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+.artile_inner_container{
+	display: flex;
+	width: 100%;
+}
+.article_routes_indi{
+	display: flex;
+	justify-content: center;
+}
+.indicator{
+	display: flex;
+	gap: 13px;
+}
+.artilce_text1{
+	font-size: 16px;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 400;
+}
+.artile_text2{
+	font-size: 16px;
+	padding-top: 52px;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 400;
+}
+.artile_text3{
+	font-size: 16px;
+	padding-top: 90px;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 400;
+}
+.artile_text_container{
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+}
+.artile_img{
+	padding: 25px 0px 28px 0px;
+}
+.artilcle_heading2{
+	font-size: 30px;
+	font-weight: 400;
+	font-family: "Helvetica Neue", sans-serif;
+
+}
+.artilde_heading{
+	display: flex;
+	font-size: 60px;
+	font-weight: 800;
+	font-family: "Helvetica Neue", sans-serif;
+	padding-top: 50px;
+	justify-content: flex-end;
+}
+.indicator_text{
+	padding-left: 10px;
+}
+.artilce_indicator{
+	display: flex;
+	gap: 10px;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+}
+.arcle_card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.arcle_card_text{
+	font-size: 12px;
+	font-weight: 400;
+	padding-top: 10px;
+	font-family: "Helvetica Neue", sans-serif;
+}
+.arcle_btn{
+	background: #EE9D34;
+/* Shadow/xs */
+width: 196px;
+height: 40px;
+margin-top: 20px;
+gap: 11px;
+color: white;
+font-family: "Helvetica Neue", sans-serif;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+.arcle_card_price{
+	font-size: 16px;
+	font-weight: 400;
+	padding-top: 10px;
+	font-family: "Helvetica Neue", sans-serif;
+}
+.article_right_box{
+	height: 100%;
+	border-left: 1px solid black;
+	width: 300px;
+	padding: 53px 10px;
+	
+
+	display: flex;
+	gap: 80px;
+	flex-direction: column;
+}
+.artile_left_side{
+	padding: 55px 30px;
+width: 100%;
+}
+@media screen and (max-width:1440px){
+	.artilde_heading{
+		display: flex;
+		font-size: 40px;
+		font-weight: 800;
+		font-family: "Helvetica Neue", sans-serif;
+		padding-top: 30px;
+		justify-content: flex-end;
+	}
+	.artile_text_container{
+		max-width: 1000px;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top: 50px;
+	}
+}
+@media screen and (max-width:910px){
+	.artilce_indicator{
+		display: flex;
+		gap: 5px;
+		font-family: "Helvetica Neue", sans-serif;
+		font-size: 14px;
+		font-weight: 800;
+	}
+	.indicator_text{
+		padding-left: 0px;
+	}
+	.artile_left_side{
+		padding: 30px 20px;
+	width: 100%;
+	}
+	.arcle_btn{
+		background: #EE9D34;
+	/* Shadow/xs */
+	width: 156px;
+	height: 40px;
+	margin-top: 20px;
+	gap: 11px;
+	font-size: 14px;
+	color: white;
+	font-family: "Helvetica Neue", sans-serif;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	}
+	.article_right_box{
+		height: 100%;
+		border-left: 1px solid black;
+		width: 200px;
+		padding: 53px 10px;
+		
+	
+		display: flex;
+		gap: 80px;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width:768px){
+	.artilce_indicator{
+		display: flex;
+		gap: 2px;
+		font-family: "Helvetica Neue", sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.article_routes_indi{
+		display: none;
+	}
+	.artilde_heading{
+		display: flex;
+		font-size: 20px;
+		font-weight: 800;
+		font-family: "Helvetica Neue", sans-serif;
+		padding-top: 0px;
+		justify-content: center;
+	}
+	.artile_text_container{
+		max-width: 1000px;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top: 20px;
+	}
+	.article_right_box{
+		height: 100%;
+		border-left: 1px solid black;
+		width: 180px;
+		padding: 20px 10px;
+		
+	
+		display: flex;
+		gap: 80px;
+		flex-direction: column;
+	}
+	.arcle_btn{
+		background: #EE9D34;
+	/* Shadow/xs */
+	width: 140px;
+	height: 40px;
+	margin-top: 20px;
+	gap: 11px;
+	font-size: 12px;
+	color: white;
+	font-family: "Helvetica Neue", sans-serif;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	}
+	.artilce_banner_wrapper{
+		background: url("../../asstes/images/article.png");
+	height: 300px;
+	background-size: cover;
+	background-position: right;
+	}
+	.artilcle_heading2{
+		font-size: 20px;
+		font-weight: 400;
+		font-family: "Helvetica Neue", sans-serif;
+	
+	}
+	.artile_text2{
+		font-size: 15px;
+		padding-top: 22px;
+		font-family: "Helvetica Neue", sans-serif;
+		font-weight: 400;
+	}
+	.artile_text3{
+		font-size: 15px;
+		padding-top: 40px;
+		font-family: "Helvetica Neue", sans-serif;
+		font-weight: 400;
+	}
+	.artilce_text1{
+		font-size: 15px;
+		font-family: "Helvetica Neue", sans-serif;
+		font-weight: 400;
+	}
+}

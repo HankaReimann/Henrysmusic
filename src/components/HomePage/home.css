@@ -1,0 +1,684 @@
+.Home_page_contaner {
+  max-width: 1100px;
+  margin: auto;
+  padding-top: 270px;
+}
+.h_home_main_container{
+	max-width: 740px;
+	margin: auto;
+	padding: 60px 52px 200px 52px;
+}
+.hm_card1_sec{
+	display: flex;
+	justify-content: space-between;
+
+}
+.mcard4_btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	background-color: #ee9d34;
+	color: white;
+	font-size: 8px;
+	margin-top: 14px;
+	width: 108px;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	height: 32px;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 800;
+
+}
+.mLast_btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	background-color: #ee9d34;
+	color: white;
+	font-size: 12px;
+	margin-top: 35px;
+	width: 91px;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	height: 41px;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 800;
+
+}
+.last_cardsec_text{
+	max-width: 119px;
+	font-size: 12px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Manrope', sans-serif;
+	font-weight: 300;
+}
+.m_card_last_sec{
+	display: flex;
+	padding: 160px 35px 0px 35px;
+	justify-content: space-between;
+}
+.m_card_4sec{
+	display: flex;
+	padding: 70px 50px 0px 50px;
+	justify-content: space-between;
+
+}
+.m_text_sec{
+	padding-top: 14px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	font-family: 'Manrope', sans-serif;
+
+	text-align: center;
+
+}
+.m_text_heading{
+text-align: center;
+font-size: 30px;
+font-family: "Bebas Neue", cursive;
+font-weight: 400;
+}
+.m_text_content{
+padding-top: 60px;
+}
+.h_card_sec2{
+	display: flex;
+	padding-top: 14px;
+	justify-content: center;
+}
+.mcard1_heading{
+	font-size: 30px;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+	font-weight: 400;
+}
+.m_car1_img{
+	filter: drop-shadow(0px 9.61481px 6.51852px rgba(0, 0, 0, 0.054963)) drop-shadow(0px 2.18519px 3.14815px rgba(0, 0, 0, 0.0337037));
+}
+.Home_card1_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 11px;
+  flex-wrap: wrap;
+}
+.coted_headind {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "Bebas Neue", cursive;
+}
+.coted_headind2 {
+  font-size: 60px;
+  font-weight: 400;
+  text-align: right;
+  font-family: "Bebas Neue", cursive;
+}
+.home_card2_text {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-right: 15px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.home_card2_text2 {
+  font-size: 20px;
+  font-weight: 400;
+
+  padding-right: 15px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.coted_text {
+  max-width: 477px;
+  text-align: center;
+  line-height: 25px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.coted_text2 {
+  max-width: 477px;
+  text-align: right;
+  line-height: 25px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.h_nav_box {
+  background-color: black !important;
+}
+.h_banner_boy {
+  position: absolute;
+  right: 10px;
+}
+.h_sep_text_box {
+  display: flex;
+  color: #ee9d34;
+  gap: 5px;
+  font-weight: 400;
+  font-family: "Bebas Neue", cursive;
+  font-size: 32px;
+  align-items: center;
+}
+.h_sep_2 {
+  width: 186px;
+  border: 8px solid white;
+}
+.h_banner_text2 {
+  font-size: 180px;
+  padding: 20px 0px;
+  line-height: 100px;
+  font-family: "Bebas Neue", cursive !important;
+  color: white;
+  font-weight: 400;
+}
+.h_text_top_bar {
+  width: 338px;
+  margin-bottom: 30px;
+  border: 14px solid white;
+}
+.hmbt{
+	position: absolute;
+	bottom: 48px;
+	left: 40px;
+	color: #EE9D34;
+	font-size: 15px;
+	font-family: "Bebas Neue", cursive;
+	font-weight: 400;
+
+}
+.h_banner_text_box {
+  position: absolute;
+  left: 75px;
+  top: 300px;
+  font-family: "Bebas Neue", cursive !important;
+}
+.home_banner_wrapper {
+  height: 900px;
+  position: relative;
+  background: url("../../asstes/images/homeBannerBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.slider_wrapper {
+  padding-top: 250px;
+}
+.main_bg {
+	margin-top: -150px;
+	background-repeat: no-repeat !important;
+
+	background-position: right !important;
+  background: url("../../asstes/images/mainBg.png");
+}
+.home_card3_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1100px;
+  padding-top: 290px;
+  margin: auto;
+  padding-bottom: 250px;
+  font-family: "Helvetica Neue", sans-serif;
+  flex-wrap: wrap;
+}
+.h_card3_btn {
+  width: 128px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  color: white;
+  background-color: #ee9d34;
+  font-weight: 800;
+}
+.h_card3_text {
+  max-width: 222px;
+  font-size: 20px;
+  padding-top: 47px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.home_card3_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img88{
+	position: absolute;
+	right: 0;
+}
+.on_nav{
+	position: absolute;
+	z-index: 5;
+	cursor: pointer;
+	height: 55px;
+	width: 45px;
+	top: 97px;
+	color: wheat;
+	
+	right: 30px;
+}
+.mobile_home_banner{
+	background: url("../../asstes/images/mhb.png");
+	height: 220px;
+	position: relative;
+	background-repeat: no-repeat !important;
+	background-size: cover;
+
+}
+.coted_img {
+  padding-top: 60px;
+}
+.h_banner_boy{
+	width: 78%;
+}
+.coted_struny_wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 175px;
+  gap: 20px;
+}
+.hbwritten{
+	position: absolute;
+	top: 18px;
+	left: 30px;
+}
+.coted_struny_wrapper2 {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 103px;
+  gap: 20px;
+}
+.slider_imgp{
+	padding: 0px 0px ;
+}
+.home_Card2_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home_card2_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 140px;
+  flex-wrap: wrap;
+}
+.h_card1_img {
+  height: 220px;
+  filter: drop-shadow(0px 118px 80px rgba(0, 0, 0, 0.14))
+    drop-shadow(0px 76.4815px 46.8519px rgba(0, 0, 0, 0.106296))
+    drop-shadow(0px 45.4519px 25.4815px rgba(0, 0, 0, 0.085037))
+    drop-shadow(0px 23.6px 13px rgba(0, 0, 0, 0.07))
+    drop-shadow(0px 9.61481px 6.51852px rgba(0, 0, 0, 0.054963))
+    drop-shadow(0px 2.18519px 3.14815px rgba(0, 0, 0, 0.0337037));
+}
+.h_card1_text {
+  font-size: 50px;
+  padding-top: 30px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-weight: 400;
+}
+@media screen and (max-width:1730px){
+	.home_banner_wrapper {
+		height: 850px;
+		position: relative;
+		background: url("../../asstes/images/homeBannerBg.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: -5 !important;
+	  }
+}
+@media screen and (max-width:1630px){
+	.home_banner_wrapper {
+		height: 750px;
+		position: relative;
+		background: url("../../asstes/images/homeBannerBg.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: -5 !important;
+	  }
+	  .h_banner_text_box {
+		position: absolute;
+		left: 75px;
+		top: 200px;
+	  }
+	  .h_text_top_bar {
+		width: 300px;
+		margin-bottom: 30px;
+		border: 12px solid white;
+	  }
+	  .h_banner_text2 {
+		font-size: 150px;
+		padding: 20px 0px;
+		line-height: 90px;
+		font-family: "Bebas Neue", cursive;
+		color: white;
+		font-weight: 400;
+	  }
+	  .h_sep_2 {
+		width: 150px;
+		border: 5px solid white;
+	  }
+	  .h_sep_text_box {
+		display: flex;
+		color: #ee9d34;
+		font-weight: 400;
+		font-family: "Bebas Neue", cursive;
+		font-size: 25px;
+		align-items: center;
+	  }
+}
+@media screen and (max-width:1700px){
+	.h_banner_boy {
+		position: absolute;
+		right: 0px;
+	  }
+}
+@media screen and (max-width:1390px){
+	.home_banner_wrapper {
+		height: 650px;
+		position: relative;
+		background: url("../../asstes/images/homeBannerBg.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: -5 !important;
+	  }
+}
+@media screen and (max-width:1200px){
+	.home_banner_wrapper {
+		height: 600px;
+		position: relative;
+		background: url("../../asstes/images/homeBannerBg.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: -5 !important;
+	  }
+	  .h_sep_2 {
+		width: 130px;
+		border: 5px solid white;
+	  }
+	  .h_banner_text2 {
+		font-size: 130px;
+		padding: 20px 0px;
+		line-height: 90px;
+		font-family: "Bebas Neue", cursive;
+		color: white;
+		font-weight: 400;
+	  }
+	  .h_text_top_bar {
+		width: 270px;
+		margin-bottom: 30px;
+		border: 12px solid white;
+	  }
+	  .h_banner_text_box {
+		position: absolute;
+		left: 75px;
+		top: 150px;
+	  }
+}
+@media screen and (max-width:1120px){
+	.home_card3_container {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+		max-width: 1100px;
+		padding-top: 320px;
+		margin: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 250px;
+		font-family: "Helvetica Neue", sans-serif;
+		flex-wrap: wrap;
+	  }
+	  .Home_page_contaner {
+		max-width: 1100px;
+		margin: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 270px;
+	  }
+	  .home_banner_wrapper {
+		height: 500px;
+		position: relative;
+		background: url("../../asstes/images/homeBannerBg.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: -5 !important;
+	  }
+	  .h_sep_2 {
+		width: 100px;
+		border: 5px solid white;
+	  }
+	  .h_banner_text2 {
+		font-size: 100px;
+		padding: 0px 0px;
+		line-height: 90px;
+		font-family: "Bebas Neue", cursive;
+		color: white;
+		font-weight: 400;
+	  }
+	  .h_text_top_bar {
+		width: 200px;
+		margin-bottom: 30px;
+		border: 12px solid white;
+	  }
+	  .h_banner_text_box {
+		position: absolute;
+		left: 50px;
+		top: 120px;
+	  }
+	  .h_banner_boy{
+		width: 75%;
+	}
+}
+@media screen and (max-width:980px){
+	.home_banner_wrapper {
+		height: 400px;
+		position: relative;
+		background: url("../../asstes/images/homeBannerBg.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: -5 !important;
+	  }
+	  .h_sep_2 {
+		width: 80px;
+		border: 5px solid white;
+	  }
+	  .h_banner_text2 {
+		font-size: 80px;
+		padding: 0px 0px;
+		line-height: 60px;
+		font-family: "Bebas Neue", cursive;
+		color: white;
+		font-weight: 400;
+	  }
+	  .h_text_top_bar {
+		width: 150px;
+		margin-bottom: 20px;
+		border: 12px solid white;
+	  }
+	  .h_banner_text_box {
+		position: absolute;
+		left: 30px;
+		top: 100px;
+	  }
+	  .h_banner_boy{
+		width: 75%;
+	}
+}
+@media screen and (max-width:815px){
+	.home_banner_wrapper {
+		height: 260px;
+		position: relative;
+		background: url("../../asstes/images/homeBannerBg.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: -5 !important;
+	  }
+	  .h_sep_2 {
+		width: 70px;
+		border: 5px solid white;
+	  }
+	  .h_banner_text2 {
+		font-size: 70px;
+		padding: 0px 0px;
+		line-height: 50px;
+		font-family: "Bebas Neue", cursive;
+		color: white;
+		font-weight: 400;
+	  }
+	  .h_text_top_bar {
+		width: 130px;
+		margin-bottom: 20px;
+		border: 8px solid white;
+	  }
+	  .h_banner_text_box {
+		position: absolute;
+		left: 30px;
+		top: 80px;
+	  }
+	  .h_banner_boy{
+		width: 70%;
+	}
+}
+@media screen and (max-width:786px){
+	.Home_card1_box {
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+		padding-top: 11px;
+		flex-wrap: wrap;
+	  }
+	  .coted_headind2 {
+		font-size: 60px;
+		font-weight: 400;
+		padding-top: 50px;
+		text-align: right;
+		font-family: "Bebas Neue", cursive;
+	  }
+	  .home_card2_box {
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+		padding-top: 140px;
+		flex-wrap: wrap;
+	  }
+	  .coted_img {
+		padding-top: 30px;
+	  }
+	  .coted_struny_wrapper {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	  
+		padding-top: 100px;
+		gap: 20px;
+	  }
+	  .coted_struny_wrapper2 {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	  
+		padding-top: 103px;
+		gap: 20px;
+	  }
+}
+@media screen and (max-width:571px){
+	.home_card3_container {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		max-width: 1100px;
+		padding-top: 320px;
+		margin: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 250px;
+		font-family: "Helvetica Neue", sans-serif;
+		flex-wrap: wrap;
+	  }
+	  .mobile_home_banner{
+		background: url("../../asstes/images/mhb.png");
+		height: 250px;
+		position: relative;
+		background-repeat: no-repeat !important;
+		background-size: cover;
+	
+	}
+}
+@media screen and (max-width:740px){
+	.HomeDeskTop{
+		display: none;
+	}
+	.chnge_home_nav{
+		display: none;
+	}
+
+}
+@media screen and (min-width:741px){
+	.homeMobileView{
+		display: none;
+	}
+	.mobile_home_banner{
+		height: 254px;
+		display: none;
+		position: relative;
+		background-size: cover;
+		background: url("../../asstes/images/mhb.png");
+	}
+}
+@media screen and (max-width:400px){
+	.h_home_main_container{
+		max-width: 740px;
+		margin: auto;
+		padding: 60px 20px 0px 20px;
+	}
+	.m_card_4sec{
+		display: flex;
+		padding: 70px 20px 0px 20px;
+		justify-content: space-between;
+	
+	}
+	.m_card_last_sec{
+		display: flex;
+		padding: 100px 20px 0px 20px;
+		justify-content: space-between;
+	}
+}
+@media screen and (max-width:400px){
+	.hbwritten{
+		position: absolute;
+		top: 0px;
+		left: 10px;
+	}
+	.hmbt{
+		position: absolute;
+		bottom: 48px;
+		left: 10px;
+		color: #EE9D34;
+		font-size: 15px;
+		font-family: "Bebas Neue", cursive;
+		font-weight: 400;
+	
+	}
+	.imh999{
+		width: 97% !important;
+	}
+	.img88{
+		position: absolute;
+		right:0px;
+	}
+}

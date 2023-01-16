@@ -1,0 +1,166 @@
+.footer_container {
+  background: url("../../asstes/images/fBg.png");
+  background-size: cover;
+  height: 627px;
+}
+.footer_inner_box {
+  max-width: 1340px;
+  margin: auto;
+
+  padding: 0px 20px;
+
+  z-index: 5;
+
+  padding-top: 360px;
+}
+.footer_sep {
+  border: 1px solid white;
+}
+.footer_addres {
+  max-width: 145px;
+  font-size: 12px;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  padding-top: 57px;
+}
+.footer_items_box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer_social_icon {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.footer_sub_items {
+  color: #ee9d34;
+  font-size: 16px;
+  font-family: "Helvetica Neue", sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer_main_text {
+  font-size: 16px;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.mbl_foter_items{
+  color: #EE9D34;
+  margin-top: 12px;
+text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Helvetica Neue", sans-serif;
+
+}
+.mbl_items_heading{
+  color: white;
+  font-size: 16px;
+  font-family: "Helvetica Neue", sans-serif;
+
+
+}
+.mnl_f_social{
+  cursor: pointer;
+}
+.f_links{
+  font-size: 14px;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.mbl_footer_sep{
+  width: 100%;
+  margin: 15px 0px 10px 0px;
+  border: 1px solid white;
+}
+.mbl_footer_links{
+  display: flex;
+  padding-top: 41px;
+  justify-content: space-between;
+  align-items: center;
+}
+.mbl_footer_social{
+  display: flex;
+  gap:30px;
+  padding-top: 48px;
+  align-items: center;
+}
+.mbl_foter_content{
+  display: flex;
+  padding-right: 50px;
+  justify-content: space-between;
+}
+.mbl_f_addres{
+  max-width: 200px;
+  color: white;
+  font-size: 10px;
+  font-family: "Helvetica Neue", sans-serif;
+
+}
+.mbl_f_addres2{
+  max-width: 200px;
+  color: white;
+  font-size: 14px;
+  font-family: "Helvetica Neue", sans-serif;
+
+}
+.mbl_footer_inner{
+
+  padding-top: 160px;
+  padding-left: 20px;
+  padding-right:20px ;
+}
+.mbl_f_last{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile_footer_coontainer{
+  background: url("../../asstes/images/mblFooter.png");
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  
+}
+.footer_content_wraper {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+.f_left_text {
+  font-size: 14px;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.footer_b_items {
+  text-decoration: underline;
+  font-size: 14px;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.footer_b_right {
+  display: flex;
+  gap: 37px;
+  align-items: center;
+}
+.footer_bootom_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width:740px){
+  .footer_container{
+    display: none;
+  }
+}
+@media screen and (min-width:741px){
+  .mobile_footer_coontainer{
+    display: none;
+  }
+}

@@ -1,0 +1,523 @@
+.blog_banner_wrapper{
+	background: url("../../asstes/images/blog_bannergrp.png");
+	background-size: cover;
+	height: 450px;
+	background-position: right;
+
+/*display: none;*/
+z-index: 0;
+	position: relative;
+}
+.blog_banner_img_box{
+position: absolute;
+right: 200px;
+}
+.guitr_boy{
+	z-index: 1;
+	margin-top: 0px;
+	
+}
+.blog_banner_text{
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 50px;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+}
+.text_boder{
+	border: 14px solid white;
+	width: 269px;
+	margin-bottom: 15px;
+}
+.menu_right_inner_items{
+	height: 250px;
+	padding: 17px 5px;
+	position: relative;
+	background-repeat: no-repeat ;
+	background: url("../../asstes/images/VectorMenu.png");
+}
+.mneu_broder1{
+	border: 5px solid white;
+	width: 92px;
+	margin:50px 20px 30px 20px ;
+}
+.mrsub_itmes{
+	font-size: 15px;
+	font-weight: 400;
+	color: #EE9D34;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-family: "Bebas Neue", cursive;
+}
+.last_traingle{
+	display: flex;
+
+	position: relative;
+	justify-content: flex-end;
+}
+.last_try{
+
+}
+.menu_right_img_heading{
+	color: black;
+	font-size: 30px;
+	font-weight: 400;
+	padding-top: 9px;
+	text-align: center;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	font-family: "Bebas Neue", cursive;
+}
+.menu_right_img4{
+	border-top: 1px solid #EE9D34;
+	border-left: 1px solid #EE9D34;
+	border-bottom: 1px solid #EE9D34;
+}
+.menu_right_img{
+	display: flex;
+	padding-top: 50px;
+	padding-left: 20px;
+	justify-content: flex-end;
+}
+.menu_right_content_box{
+	position: absolute;
+	bottom: -40px;
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+	padding-left: 10px;
+}
+.mneu_broder2{
+	border: 5px solid white;
+	width: 56px;
+	margin:40px 35px 10px 35px ;
+}
+.menu_inner_right{
+	width: 155px;
+	height: 76vh;
+	right: 0;
+	top: -15px;
+	position: absolute;
+	background-color: white;
+}
+.text_boder2{
+	border: 14px solid white;
+	width: 186px;
+}
+.blog_banner_content{
+position: absolute;
+bottom: 104px;
+left: 87px;
+
+}
+.blog_img_heading{
+	font-size: 60px;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+	font-weight: 400;
+}
+.blog_img_box{
+	width: 400px;
+}
+.blog_card_tabs{
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	padding: 0px 100px;
+	padding-top: 200px;
+}
+.blog_tabs_items{
+	height: 51px;
+	width: 178px;
+	display: flex;
+	font-size: 12px;
+	font-weight: 700;
+	border-radius: 29px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	background-color: #EE9D34;
+}
+.blog_img_ele{
+	width: 100%;
+}
+.blog_card_wraper{
+	display: flex;
+	padding: 96px 150px 96px 150px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 53px;
+	
+
+}
+.blof_card{
+	width: 327px;
+	height: 580px;
+	box-shadow: 0px 100px 46px -3px rgba(0, 0, 0, 0.0288889), 0px 64.8148px 26.9398px -3px rgba(0, 0, 0, 0.0471111), 0px 38.5185px 14.6519px -3px rgba(0, 0, 0, 0.06), 0px 20px 7.475px -3px rgba(0, 0, 0, 0.0728889), 0px 8.14815px 3.74815px -3px rgba(0, 0, 0, 0.0911111), 0px 1.85185px 1.81019px -3px rgba(0, 0, 0, 0.12);
+	border:1px solid  #EE9D34;
+}
+.blof_card_last{
+	width: 327px;
+	margin-top: 150px;
+	height: 580px;
+	box-shadow: 0px 100px 46px -3px rgba(0, 0, 0, 0.0288889), 0px 64.8148px 26.9398px -3px rgba(0, 0, 0, 0.0471111), 0px 38.5185px 14.6519px -3px rgba(0, 0, 0, 0.06), 0px 20px 7.475px -3px rgba(0, 0, 0, 0.0728889), 0px 8.14815px 3.74815px -3px rgba(0, 0, 0, 0.0911111), 0px 1.85185px 1.81019px -3px rgba(0, 0, 0, 0.12);
+	border:1px solid  #EE9D34;
+}
+.blog_Card_heaiding{
+	display: flex;
+	justify-content: center;
+	padding-top: 37px;
+	font-size: 32px;
+	font-weight: 400;
+}
+.blog_card_text{
+	padding: 41px 9px 49px 9px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 800;
+	
+}
+.blog_card_btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-size: 40px;
+	color: white;
+	width: 215px;
+	height: 41px;
+	background-color: #EE9D34;
+}
+.mobile_blog_banner{
+	background: url("../../asstes/images/bmb.png");
+	height: 200px;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.mbv_nav_icon{
+	cursor: pointer;
+}
+.menu_left_items{
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+}
+.menu_right_bg{
+	width: 180px;
+	height: 80vh;
+	position: relative;
+	background: rgba(255, 255, 255, 0.21);
+	box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0531481), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0425185), 0px 20px 13px rgba(0, 0, 0, 0.035), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0274815), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.0168519);
+}
+.menu_items{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	gap: 10px;
+	font-size: 30px;
+	font-family: "Bebas Neue", cursive;
+	font-weight: 400;
+	color: white;
+
+}
+.menu_btn{
+	cursor: pointer;
+}
+.menu_content_wrapper{
+	display: flex;
+	padding: 33px 0px 0px 10px;
+	justify-content: space-between;
+
+}
+.nav_menu_btn_box{
+	display: flex;
+	padding: 50px 42px 0px 42px;
+	justify-content: flex-end;
+}
+.layer_imgele{
+	width: 98%;
+}
+.layer_img{
+	position: absolute;
+	top: 0;
+}
+
+.mbl_menu_wrapper{
+position: relative;
+}
+.blog_card_btn_box{
+	display: flex;
+	justify-content: center;
+}
+.blog_card_img{
+	width: 100%;
+}
+.blog_img_sec{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding:0px 20px ;
+	justify-content: space-between;
+}
+.blog_body_container{
+	max-width: 1440px;
+	margin: auto;
+	padding-top: 182px;
+	padding-bottom: 150px;
+
+
+
+}
+@media screen and (max-width:1520px){
+	.blog_banner_content{
+		position: absolute;
+		bottom: 250px;
+		left: 50px;
+		
+		}
+		.text_boder{
+			border: 10px solid white;
+			width: 230px;
+			margin-bottom: 15px;
+		}
+		.blog_banner_text{
+			font-size: 50px;
+			font-weight: 400;
+			line-height: 50px;
+			color: white;
+			font-family: "Bebas Neue", cursive;
+		}
+		.text_boder2{
+			border: 10px solid white;
+			width: 150px;
+		}
+}
+@media screen and (max-width:1360px){
+	.blog_banner_wrapper{
+		background: url("../../asstes/images/blog_bannergrp.png");
+		background-size: cover;
+		height: 400px;
+		background-position: center;
+	
+	/*display: none;*/
+	z-index: 0;
+		position: relative;
+	}
+	.text_boder{
+		border: 10px solid white;
+		width: 200px;
+		margin-bottom: 0px;
+	}
+	.blog_banner_text{
+		font-size: 40px;
+		font-weight: 400;
+		line-height: 50px;
+		color: white;
+		font-family: "Bebas Neue", cursive;
+	}
+	.text_boder2{
+		border: 10px solid white;
+		width: 100px;
+	}
+	.blog_body_container{
+		max-width: 1440px;
+		margin: auto;
+		padding-top: 100px;
+		padding-bottom: 150px;
+	
+	
+	
+	}
+	
+}
+@media screen and (max-width:1279px){
+	.blog_img_sec{
+		display: flex;
+		flex-wrap: wrap;
+		gap: 50px;
+		padding:0px 20px ;
+		justify-content: center;
+	}
+	.blog_img_heading{
+		font-size: 40px;
+		text-align: center;
+		font-weight: 400;
+	}
+	.blog_card_tabs{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 20px;
+		padding: 0px 20px;
+		padding-top: 100px;
+	}
+	.blog_card_wraper{
+		display: flex;
+		padding: 96px 20px 96px 20px;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 53px;
+		
+	
+	}
+	.blof_card_last{
+		width: 327px;
+		margin-top: 50px;
+		height: 580px;
+		box-shadow: 0px 100px 46px -3px rgba(0, 0, 0, 0.0288889), 0px 64.8148px 26.9398px -3px rgba(0, 0, 0, 0.0471111), 0px 38.5185px 14.6519px -3px rgba(0, 0, 0, 0.06), 0px 20px 7.475px -3px rgba(0, 0, 0, 0.0728889), 0px 8.14815px 3.74815px -3px rgba(0, 0, 0, 0.0911111), 0px 1.85185px 1.81019px -3px rgba(0, 0, 0, 0.12);
+		border:1px solid  #EE9D34;
+	}
+}
+@media screen and (min-width:701px){
+	.mobile_blog_banner{
+		display: none;
+	}
+}
+@media screen and (max-width:746px){
+	.blog_card_wraper{
+		display: flex;
+		padding: 96px 20px 96px 20px;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 53px;
+		
+	
+	}
+	.blog_Card_heaiding{
+		display: flex;
+		justify-content: center;
+		padding-top: 37px;
+		font-size: 27px;
+		font-weight: 400;
+	}
+	.blog_body_container{
+		max-width: 1440px;
+		margin: auto;
+		padding-top: 50px;
+		padding-bottom: 150px;
+	
+	
+	
+	}
+}
+@media screen and (max-width:700px){
+	.blog_banner_wrapper{
+		background: url("../../asstes/images/blog_bannergrp.png");
+		background-size: cover;
+		height: 400px;
+		background-position: center;
+	
+	display: none;
+	z-index: 0;
+		position: relative;
+	}
+	.blog_banner_content{
+		position: absolute;
+		bottom: 80px;
+		left: 30px;
+		
+		}
+		.text_boder{
+			border: 5px solid white;
+			width: 100px;
+			margin-bottom: 5px;
+		}
+		.blog_banner_text{
+			font-size: 30px;
+			font-weight: 400;
+			line-height: 25px;
+			color: white;
+			font-family: "Bebas Neue", cursive;
+		}
+		.text_boder2{
+			border: 5px solid white;
+			width: 70px;
+		}
+}
+@media screen and (max-width:730px){
+	.blog_card_tabs{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 20px;
+		padding: 0px 20px;
+		padding-top: 80px;
+	}
+	.blog_tabs_items{
+		height: 51px;
+		width: 100px;
+		display: flex;
+		font-size: 12px;
+		font-weight: 700;
+		border-radius: 29px;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		background-color: #EE9D34;
+	}
+}
+@media screen and (max-width:475px){
+	.blog_img_sec{
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		padding:0px 20px ;
+		justify-content: center;
+	}
+	.blog_img_heading{
+		font-size: 30px;
+		text-align: center;
+		font-weight: 400;
+	}
+	.blog_img_box{
+		width: 100% !important;
+		padding: 0px 0px;
+	}
+	@media screen and (max-width:730px){
+		.blog_card_tabs{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap: 20px;
+			padding: 0px 20px;
+			padding-top: 80px;
+		}
+	}
+}
+@media screen and (max-width:400px){
+	.mobile_blog_banner{
+		background: url("../../asstes/images/bmb.png");
+		height: 220px;
+		position: relative;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.blog_banner_content{
+		position: absolute;
+		bottom: 125px;
+		left: 15px;
+		
+		}
+		.text_boder{
+			border: 5px solid white;
+			width: 100px;
+			margin-bottom: 5px;
+		}
+		.blog_banner_text{
+			font-size: 30px;
+			font-weight: 400;
+			line-height: 25px;
+			color: white;
+			font-family: "Bebas Neue", cursive;
+		}
+		.text_boder2{
+			border: 5px solid white;
+			width: 70px;
+		}
+}
